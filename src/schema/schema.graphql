@@ -1,0 +1,25 @@
+# Schema is repesentaion of interations and data
+
+# query and mutaion
+
+# query
+type Query {
+  helloWolrd: String!
+}
+
+#mutation
+
+type Mutation {
+  addUser(name: String!, bio: String): User!
+}
+
+#data
+
+type User {
+  id: ID
+  name: String
+  bio: String
+}
+
+# premitive built-in types
+# String, Int, Float, Boolean and ID
