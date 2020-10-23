@@ -5,6 +5,8 @@
 # query
 type Query {
   helloWolrd: String!
+  users: [User]!
+  user(id: ID!): User
 }
 
 #mutation
