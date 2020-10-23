@@ -10,13 +10,11 @@ type Query {
 }
 
 #mutation
-
 type Mutation {
   addUser(name: String!, bio: String): User!
 }
 
 #data
-
 type User {
   id: ID
   name: String
